@@ -1,0 +1,52 @@
+body {
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+     position: relative;
+}
+
+
+.text {
+	color: #000000;
+}
+
+
+h2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+footer {
+	color: white;
+}
+
+#tide    {	padding-top: 50px;	padding-bottom: 50px;	color: #000000;	background-color: #D8D8D8;}
+#coxinha {	padding-top: 50px;	padding-bottom: 50px;	color: #2E2E2E;	background-color: #BDBDBD;}
+#risoles {  padding-top: 50px;  padding-bottom: 50px;   color: #424242; background-color: #A4A4A4;}
+#empada  {	padding-top: 50px;	padding-bottom: 50px;	color: #D8D8D8;	background-color: #848484;}
+#pedido  {	padding-top: 50px;	padding-bottom: 50px;	color: #E6E6E6;	background-color: #6E6E6E;}
+#contato {	padding-top: 50px;	padding-bottom: 50px;	color: #F2F2F2;	background-color: #585858;}
+#rodape  {  padding-top: 5px;   padding-bottom: 10px;   text-align: center; background-color: #424242;}
+
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+	position: relative;
+	top: 50px;
+}
+
+
+
+
